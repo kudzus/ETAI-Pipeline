@@ -38,6 +38,11 @@ This table is updated after each practical class, so you can always see what cha
 | Week | Practical class focus | Added to the pipeline |
 |------|------------------------|------------------------|
 | 2 | Introduction & baseline pipeline | Initial version: project structure, a single naive train/test split (no cross-validation), minimal preprocessing (drop rows with missing values, one-hot encode categoricals), logistic regression baseline, a first (deliberately simple) fairness check comparing our model's and COMPAS's own false-positive rate by race, train-vs-test accuracy reporting (to start spotting overfitting), and each run's full report saved automatically to `results/` |
+| 3 | Model comparison | Forked the repository, added my name and student number to the README, changed the model from logistic regression to a decision tree, and compared the results. |
+
+## Model comparison
+
+Logistic regression performs better because its train and test accuracy are nearly equal, while the decision tree has higher training accuracy but lower test accuracy, showing a sign of overfitting.
 
 ## Environment setup
 
